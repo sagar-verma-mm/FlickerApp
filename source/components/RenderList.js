@@ -19,7 +19,7 @@ export const RenderList = ({data, onClick}) => {
             }}
             resizeMode={FastImage.resizeMode.contain}
           /> */}
-          <Image
+           <Image
             style={{ width: normalize(250), height: normalize(100) }}
             source={{
                 uri: `https://live.staticflickr.com/${item?.server}/${item?.id}_${item?.secret}_w.jpg`,
